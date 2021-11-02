@@ -29,9 +29,7 @@ function androidBuildOne {
         -D__ANDROID_API__=$APIVER \
         CC=clang \
         no-shared \
-        no-tests \
-        no-ui \
-        no-stdio
+        no-tests
 
     make
 
